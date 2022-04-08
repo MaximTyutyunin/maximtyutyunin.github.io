@@ -1,0 +1,85 @@
+
+.content{
+  margin: auto;
+  max-width: 70%;
+}
+
+img {
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 15%;
+  display: block;
+  max-width: 50%;
+  border-radius: 100%;
+}
+
+.text {
+  color: #EAE6E5;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.myName {
+  font-size: 2rem;
+}
+
+.upperPart {
+  margin: auto;
+  margin-bottom: 15em;
+
+  max-width: 50%;
+}
+
+.lowerPart {
+  margin: auto;
+
+  max-width: 70%;
+}
+
+.container {
+  margin: 2em auto;
+  width: 80%;
+min-height:200px;
+  display: grid;
+
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr ;
+  gap: 10px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #EAE6E5;
+  
+}
+
+.projects {
+  border: 2px solid #4C02A0;
+  border-radius: 15px;
+  grid-row: 1/3;
+  grid-column: 1/4;
+}
+
+.skills {
+  border: 2px solid #4D8076;
+  border-radius: 15px;
+  grid-row: 1/3;
+  grid-column: 4/6;
+}
+
+.contact {
+  border: 2px solid #C4FCEF;
+  border-radius: 15px;
+  grid-row: 3/5;
+  grid-column: 1/3;
+}
+
+.artworks {
+  border: 2px solid #00C9A7;
+  border-radius: 15px;
+  grid-column: 3/6;
+  grid-row:3/5;
+}
+
+
+/*# sourceMappingURL=main.css.map */
