@@ -1,4 +1,58 @@
-nav{
-    background-color: #2B2241;
-    border: 2px solid #4D8076;
+.userInput {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:100px;
 }
+
+.userInput div {
+    margin: 4px;
+    margin-top: 25px;
+}
+
+/* .userInput > input{// left here for the purpose of learning
+    align-self: end;
+} */
+
+.name-surname {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* form {// left here for the purpose of learning
+    border: 2px solid #C4FCEF;
+    border-radius: 4px;
+   
+} */
+
+form  input{
+    background-color: transparent;
+    outline: none;
+    margin: 0 0 5px 0;
+    color: #C4FCEF;
+    border:none;
+}
+
+textarea{
+    background-color: transparent;
+    outline: none; 
+    color: #C4FCEF;
+    border: 1px solid #C4FCEF;
+    resize: none;
+    /* background-color: #5f12b6ab; // for future use */
+}
+
+form input:not([type="submit"]) {
+    border: 1px solid #C4FCEF
+}
+
+.submit{
+    color:#C4FCEF;
+   
+}
+
+
+::placeholder {
+    color: #C4FCEF;
+}
+

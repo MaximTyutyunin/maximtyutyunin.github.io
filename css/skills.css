@@ -1,0 +1,45 @@
+.skills-description {
+    max-width: 666px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 35px;
+    border: 2px solid #4D8076;
+    box-sizing: border-box;
+    border-radius: 34px;
+    font-weight:200;
+    font-size: 14px;
+    line-height: 27px;
+    color: #EAE6E5;
+    background-color: #2b2241bd;
+    /* backdrop-filter: blur(80%); */
+    margin-top: 50px;
+}
+
+.skill-plates {
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+}
+
+.skills-item {
+    margin: 0 10px;
+}
+
+
+.skills-item {
+    border: 2px solid #4D8076;
+    border-radius: 34px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EAE6E5;
+    background-color: #2b2241c9;
+    padding: 0 1rem;
+
+}
+
+nav{
+    margin-bottom: 120px;
+}

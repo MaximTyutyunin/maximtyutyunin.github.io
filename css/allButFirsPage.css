@@ -1,0 +1,71 @@
+nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index:2;
+    width: 100%;
+    background-color: #2B2241;
+    height: 70px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav a {
+    margin: 0 1.8rem;
+    text-decoration: none;
+    color: #EAE6E5;
+    padding: 4px 6px;
+}
+
+.home {
+    border: 2px solid #E23B12;
+    border-radius: 15px;
+}
+
+.home:hover {
+    border: 3px solid #E23B12;
+    padding: 3px 5px;
+}
+
+.projects {
+    border: 2px solid #4C02A0;
+    border-radius: 15px;
+
+}
+
+.projects:hover {
+    border: 3px solid #4C02A0;
+    padding: 3px 5px;
+}
+
+.skills {
+    border: 2px solid #4D8076;
+    border-radius: 15px;
+}
+
+.skills:hover {
+    border: 3px solid #4D8076;
+    padding: 3px 5px;
+}
+
+.contacts {
+    border: 2px solid #C4FCEF;
+    border-radius: 15px;
+}
+
+.contacts:hover {
+    border: 3px solid #C4FCEF;
+    padding: 3px 5px;
+}
+
+.artworks {
+    border: 2px solid #00C9A7;
+    border-radius: 15px;
+}
+
+.artworks:hover {
+    border: 3px solid #00C9A7;
+    padding: 3px 5px;
+}
